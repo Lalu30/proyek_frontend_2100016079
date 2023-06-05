@@ -1,0 +1,38 @@
+nav {
+    position: fixed;
+    font-size: 0.8rem;
+    z-index: 4;
+}
+
+nav a {
+    color: var(--text-color);
+}
+
+.navName {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    line-height: 0.8rem;
+    left: 0.5rem;
+    top: 0.5rem;
+}
+
+.navMenuRight {
+    position: fixed;
+    right: 0.5rem;
+    top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    line-height: 1rem;
+    text-align: end;
+}
+
+.navMenuBottom {
+    position: fixed;
+    bottom: 0.5rem;
+    left: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    line-height: 1rem;
+    text-align: start;
+}
